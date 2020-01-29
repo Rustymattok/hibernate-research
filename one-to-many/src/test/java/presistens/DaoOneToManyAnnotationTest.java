@@ -40,7 +40,7 @@ public class DaoOneToManyAnnotationTest {
     @Test
     public void remove() {
         DaoOneToManyAnnotation dao = DaoOneToManyAnnotation.getINSTANCE();
-        dao.remove(1);
+        dao.remove(3);
     }
     /**
      *Test One to many annotation -> update car by Index.

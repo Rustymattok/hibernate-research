@@ -22,7 +22,7 @@ public class DaoOneToOneXMLSampleTest {
         SessionFactory factory = new Configuration().configure().buildSessionFactory();
         Session session = factory.openSession();
         session.beginTransaction();
-        Engine engine = session.get(Engine.class,4);
+        Engine engine = session.get(Engine.class,5);
         session.getTransaction().commit();
         session.close();
         factory.close();
@@ -40,7 +40,7 @@ public class DaoOneToOneXMLSampleTest {
     @Test
     public void remove() {
         DaoOneToOneXMLSample dao = DaoOneToOneXMLSample.getINSTANCE();
-        dao.remove(1);
+        dao.remove(2);
     }
     /**
      *Test One to many xml -> update car by Index.
