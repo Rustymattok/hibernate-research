@@ -91,7 +91,7 @@
                 <artifactId>liquibase-maven-plugin</artifactId>
                 <version>3.6.2</version>
                 <configuration>
-                    <changeLogFile>one-to-many/src/main/resources/master.xml</changeLogFile>
+                    <changeLogFile>/one-to-many/src/main/resources/master.xml</changeLogFile>
                     <!--<changeLogFile>/one-to-many/src/main/resources/master.xml</changeLogFile>-->
                     <url>jdbc:postgresql://localhost:5432</url>
                     <!--<url> jdbc:postgresql://host:port/database</url>-->
