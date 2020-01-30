@@ -10,7 +10,9 @@ public class CarManyToMany {
     private Engine engine;
     private String name;
     private Set drivers = new HashSet();
-
+    /**
+     * Constructor
+     */
     public CarManyToMany() {
     }
 
