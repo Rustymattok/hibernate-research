@@ -15,7 +15,9 @@ public class DriverManyToManyAnnotation {
     private String name;
     @ManyToMany(mappedBy = "drivers")
     private Set<CarManyToManyAnnotation> cars;
-
+    /**
+     * Constructor
+     */
     public DriverManyToManyAnnotation() {
     }
 
