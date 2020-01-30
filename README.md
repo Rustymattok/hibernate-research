@@ -1,4 +1,4 @@
-# Travis Build [![Build Status](https://travis-ci.org/Rustymattok/hibernate-research.svg?branch=master)](https://travis-ci.com/travis-ci/travis-build)
+# Travis Build [![Build Status](https://travis-ci.org/Rustymattok/hibernate-research.svg?branch=master)](https://travis-ci.org/Rustymattok/hibernate-research)
 # Hibernate - research
 
 This project for hibernate research function
